@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "64a6cf7ca8e20d073ae3192d"
+  },
+  "firstName": "Kasia",
+  "secondName": "Jozwiak",
+  "age": 29,
+  "height": 162,
+  "hobbies": [
+    "reading",
+    "hiking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64a6d23ea8e20d073ae3192e"
+  },
+  "firstName": "Michael",
+  "secondName": "Knox",
+  "age": 30,
+  "height": 188,
+  "hobbies": [
+    "gaming",
+    "warhammer"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64a6d23ea8e20d073ae3192f"
+  },
+  "firstName": "Marta",
+  "secondName": "Wydzgowska",
+  "age": 35,
+  "height": 160,
+  "hobbies": [
+    "travelling",
+    "fitness"
+  ]
+}]
