@@ -89,7 +89,38 @@ if (playerChoice === "rock" || playerChoice === "paper" || playerChoice === "sci
     }
     
 // ext add colour
-// add lizard and spock
+// ext add lizard and spock
+///end of TASK
+
+
+// MONGO DB - a document store, a noSQL database
+// Mongo stores as "seralised json" -> the object format of Mongo is Json
+//JSON - Java Sciprt Object Notation
+//SQL tables can be expressed as a document with JSON objects 
+//documents in Mongo internally are stored as BSON (Binary...)
+
+//SQL ADV: databases are the fastest for specific rows and searching rows by column
+//SQL DIS: difficult strucutre, plan required, to get a whole object you must assemble it - slower
+//NoSQL ADV: flexibility, reading a comple object faster than sql
+//NoSQL DIS: slower search by other "columns"(attributes) as it has to search through all objects
+//speed here refers to computation speed
+
+//_id -> standard to have internal attributes starting the name with _
+//_v -> amount of edits (expressed as a number)
+//_v and _id: ObjectName - will be added secretly to each Mongo document
+
+//"Document" is a json object
+//"Collection" is a folder of objects = group of documents
+//"Database" is a group of Collections
+
+//Sharding - means that collections from one database can be split between multiple computers
+
+
+
+
+
+
+
 
 
 
