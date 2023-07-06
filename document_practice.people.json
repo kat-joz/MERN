@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "64a6d352a8e20d073ae31932"
+  },
+  "firstName": "Ben",
+  "surname": "Smith",
+  "age": 32,
+  "height": 157,
+  "hobbies": [
+    "Poker",
+    "Blackjack",
+    "playing roulette"
+  ],
+  "wearsGlasses": true,
+  "pet": {
+    "name": "Axel",
+    "age": 2,
+    "breed": "German Sheppard"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a6d352a8e20d073ae31933"
+  },
+  "firstName": "Sally",
+  "surname": "Brown",
+  "age": 34,
+  "height": 189,
+  "hobbies": [
+    "Football",
+    "Climbing"
+  ],
+  "wearsGlasses": true
+},
+{
+  "_id": {
+    "$oid": "64a6d352a8e20d073ae31934"
+  },
+  "firstName": "Emily",
+  "surname": "Poole",
+  "age": 42,
+  "height": 174,
+  "hobbies": [
+    "Go-Karting",
+    "Ultimate Frisbee"
+  ],
+  "wearsGlasses": true
+}]
