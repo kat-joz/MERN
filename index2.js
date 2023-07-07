@@ -5,7 +5,7 @@
 //local host = 127.0.0.1
 
 //Import and connect mongoose:
-//const mongoose = require("mongoose")
+
 
 //.then and .catch are knows as promises
 //Let me know when connected while I execute the rest of the code:
@@ -31,8 +31,8 @@
 
 //How to connect with Mongoose, create schema and push and object:
 
-//const mongoose = require("mongoose")
 
+const mongoose = require("mongoose")
 mongoose.connect("mongodb://127.0.0.1:27017").then (()=>{
     console.log("Connected!")
 
@@ -69,5 +69,4 @@ const carSchema = new mongoose.Schema({
 
 
 const carModel = mongoose.model("car", carSchema)
-
 

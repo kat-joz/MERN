@@ -13,6 +13,7 @@
     "start": "node index.js",
     "start2": "node index2.js",
     "start3": "node indexTask.js",
+    "start4": "node index3.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
